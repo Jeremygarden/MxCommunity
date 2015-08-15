@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 23, 2014 11:17:59 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="neu.edu.limongxuan.pojo.GroupDetail" table="GROUPDETAIL">
+        <id name="groupDetailID" type="int">
+            <column name="GROUPDETAILID" />
+            <generator class="increment" />
+        </id>
+        <property name="groupName" type="java.lang.String">
+            <column name="GROUPNAME" />
+        </property>
+    </class>
+</hibernate-mapping>
